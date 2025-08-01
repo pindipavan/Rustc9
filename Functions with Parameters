@@ -1,0 +1,6 @@
+fn add(a: i32, b: i32) {
+ println!("Sum of a and b = {}", a + b);
+}
+fn main() {
+ add(2, 11);
+}
