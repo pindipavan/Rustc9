@@ -1,0 +1,10 @@
+fn mutate_no_to_zero(param_no: i32) {
+ let mut param_no = param_no;
+ param_no = 0;
+ println!("param_no value is: {}", param_no);
+}
+fn main() {
+ let no = 5;
+ mutate_no_to_zero(no);
+ println!("The value of no is: {}", no);
+}
