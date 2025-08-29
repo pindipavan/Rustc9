@@ -1,0 +1,9 @@
+fn main() {
+    let mut my_string = String::from("Hello");
+
+    my_string.push_str(", Rust!");
+    my_string.push(' ');
+    my_string.push_str("How are you?");
+
+    println!("{}", my_string);
+}
