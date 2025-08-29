@@ -1,0 +1,9 @@
+fn main() {
+    let string_literal: &str = "Hello, Rust!";
+    let string_object: String = string_literal.to_string();
+    let another_string_object = String::from(string_literal);
+
+    println!("String Literal: {}", string_literal);
+    println!("String Object (using to_string): {}", string_object);
+    println!("String Object (using String::from): {}", another_string_object);
+}
